@@ -73,7 +73,6 @@ void TopoSort()
 											{4, 0, 1},
 											{4, 1, 1},
 											{2, 3, 1},
-//											{1, 2, 1},
 											{3, 1, 1}};
 	CGraph g(6);
 	for (int i = 0; i < sizeof(weights)/sizeof(*weights); ++i)
